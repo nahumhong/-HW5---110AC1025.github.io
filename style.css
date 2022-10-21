@@ -1,0 +1,206 @@
+html
+{
+    font-family: Arial; 
+    box-sizing: border-box;
+    background-color: #edf2c5;
+}
+
+body
+{
+display: flex;
+flex-direction: column;
+justify-content: center;
+font-family: Arial; 
+box-sizing: border-box;
+background-color: #edf2c5;
+align-items: center; 
+}
+
+*,*:after,*:before
+{
+    box-sizing: inherit;
+}
+
+.background 
+{
+    width: 1260px;
+    height: 880px;
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box_footer 
+{
+    margin: 35px 0px 0px 0px;
+    width: 1260px;
+    height: 60px;
+    background-color: #778a50;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.f_Word
+{
+    height: 35px;
+    font-size: 12px;
+    line-height: 3;
+    text-align: left;
+    color: #edf2c5;
+}
+
+.Logoandicon
+{
+    display: flex;
+    margin: 0px;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+
+}
+
+.btnlist
+{
+    display: flex;
+    margin: 0px;
+    flex-direction:row;
+    align-items:center;
+    justify-content: flex-end;
+    height: 30px;
+}
+
+.spaceLine
+{
+    width: 1px;
+    height: 25px;
+    background-color: #778a50;
+    margin: 10px;
+}
+
+.imgbtn
+{
+    height: 25px;
+    width: 25px;
+    margin-left: 10px;
+}
+
+.btn
+{
+    color: #778a50;
+    padding: 5px 7px;
+    border: solid 1px #778a50;
+    height: 25px;
+    border-radius:3px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+}
+
+.Logo
+{
+    font-size: 44px;
+    color:#778a50;
+    margin: 0px;
+    font-weight: 900;
+}
+
+.nav
+{
+    width: 940px;
+    height: 44px;
+    margin: 5px 0px 0px 0px; 
+    display: flex;
+    border-radius: 3px;
+    background-color: #778a50;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.navword
+{
+    font-size: 16px;
+    margin: 0 60px 0 0;
+    font-weight: 900;
+    color: #edf2c5;
+}
+
+.navbox
+{
+    height: 44px;
+    border-radius: 3px;
+    background-color: #778a50;
+}
+
+.navbox li{
+    padding: 12px   0px;
+}
+
+.mainPng
+{
+    height: 448px;
+    margin-top: 20px;
+}
+
+.Vegetandcontact
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.vegetimglist
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Vegetandcontactword
+{
+    height: 45px;
+    margin-top: 0px;
+    font-size: 16px;
+    font-weight: 900;
+    color: #edf2c5;
+    background-color: #778a50;
+    border-radius: 3px;
+    padding: 11px 316px 11px 30px;
+}
+
+.veget
+{
+    width: 432px;
+}
+
+.contact
+{
+    width: 444px;
+}
+
+.contactword
+{
+    background-color: #f7fbda;
+    padding: 15px;
+    height: 140px;
+}
+
+.firstP
+{
+    font-size: 12px;
+    line-height: 1.25;
+    color: #7d7d7d;
+    margin-bottom: 15px;
+    margin-top: 0px;
+    height: 44px;
+}
+
+.secondP
+{
+    font-size: 12px;
+    color: #7d7d7d;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    line-height: 1.75;
+}
